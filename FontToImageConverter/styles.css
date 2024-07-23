@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'KPPusKul';
+    src: url('https://github.com/rikuuu0611/FontToImageConverter/raw/main/FontToImageConverter/fonts/kppuskum.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KPCheongPongB';
+    src: url('https://github.com/rikuuu0611/FontToImageConverter/raw/main/FontToImageConverter/fonts/KCC-KP-CheongPong-Bold-KP-2011KPS.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+select,
+input[type="color"] {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+img {
+    display: none;
+    margin-top: 20px;
+}

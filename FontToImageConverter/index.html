@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en jp kp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Converter to Image</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Font to Image Converter</h1>
+    <textarea id="inputText" placeholder="Enter your text here..."></textarea><br>
+
+    <!-- フォント選択 -->
+    <select id="fontSelect">
+        <option value="Arial">Arial</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Verdana">Verdana</option>
+        <option value="KPPusKul">北朝鮮フォント1</option>
+        <option value="KPCheongPongB">北朝鮮フォント2</option>
+    </select><br>
+
+    <!-- 文字色選択 -->
+    <label for="textColor">Text Color:</label>
+    <input type="color" id="textColor" value="#000000"><br>
+
+    <!-- 背景色選択 -->
+    <label for="bgColor">Background Color:</label>
+    <input type="color" id="bgColor" value="#FFFFFF"><br>
+
+    <button onclick="generateImage()">Generate Image</button>
+    <br>
+    <img id="textImage" src="" alt="Generated Text Image"/>
+</body>
+</html>
